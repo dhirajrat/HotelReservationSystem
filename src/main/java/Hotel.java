@@ -11,4 +11,20 @@ public class Hotel {
         this.hotelName = hotelName;
         this.ratesForRegularCustomer = ratesForRegularCustomer;
     }
+
+    public String getHotelName() {
+        return hotelName;
+    }
+
+    public void setHotelName(String hotelName) {
+        this.hotelName = hotelName;
+    }
+
+    public int getRatesForRegularCustomer() {
+        return ratesForRegularCustomer;
+    }
+
+    public void setRatesForRegularCustomer(int ratesForRegularCustomer) {
+        this.ratesForRegularCustomer = ratesForRegularCustomer;
+    }
 }
