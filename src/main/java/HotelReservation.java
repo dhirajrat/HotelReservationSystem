@@ -6,7 +6,7 @@ public class HotelReservation {
     private List<Hotel> hotelList;
 
     /**
-     *
+     * Creating New HotelList Of Hotels when Hotel Reservation call
      */
     public HotelReservation() {
         this.hotelList = new ArrayList<>();
@@ -18,6 +18,14 @@ public class HotelReservation {
      */
     public void add(Hotel hotel) {
         this.hotelList.add(hotel);
-        System.out.println("");
+        System.out.println("Hotel "+hotel.hotelName+" Added");
+    }
+
+    public List<Hotel> getHotelList() {
+        return hotelList;
+    }
+
+    public void setHotelList(List<Hotel> hotelList) {
+        this.hotelList = hotelList;
     }
 }
